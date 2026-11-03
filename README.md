@@ -1,1 +1,5 @@
 a fake payment provider that misbehaves on purpose: duplicate callbacks, callbacks arriving before the API response, timeouts where the payment actually went through, out-of-order events and reversals. Point it at a real payment service and automatically check the rules money must obey: no double credits, no lost payments, and the total amount of money always adds up. Why it’s rare: Jepsen-style testing exists for databases, but almost nobody does it for payment flows. Proof: run it against open-source billing or payment projects, report the bugs you find responsibly, and publish the write-ups. Bugs you found in other people’s code are powerful.
+
+**CI Status**
+
+[![CI](https://github.com/lewisirimu/hatari/actions/workflows/ci.yml/badge.svg)](https://github.com/lewisirimu/hatari/actions/workflows/ci.yml)
