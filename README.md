@@ -3,3 +3,6 @@ a fake payment provider that misbehaves on purpose: duplicate callbacks, callbac
 **CI Status**
 
 [![CI](https://github.com/lewisirimu/hatari/actions/workflows/ci.yml/badge.svg)](https://github.com/lewisirimu/hatari/actions/workflows/ci.yml)
+
+
+Check out the [why the project exist](docs/one-pager.md) for more details.
